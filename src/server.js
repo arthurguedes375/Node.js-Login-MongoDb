@@ -12,6 +12,12 @@ const express = require('express');
 const app = express();
 
 
+// Mongoose
+const mongoConfig = require('./config/mongoConfig');
+const mongoose = require('mongoose');
+mongoose.connect(mongoConfig.connectionUrl, { useNewUrlParser: true, useUnifiedTopology: true })
+
+
 // Middlewares
 const morgan = require('morgan');
 
