@@ -1,0 +1,20 @@
+{
+  "name": "loginNodejsMongoDb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/server.js",
+  "scripts": {
+    "predev": "clear",
+    "dev": "nodemon"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jest": "^26.5.0",
+    "mongoose": "^5.10.7",
+    "morgan": "^1.10.0"
+  }
+}
