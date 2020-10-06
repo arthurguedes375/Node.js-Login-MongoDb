@@ -1,6 +1,8 @@
 // Dotenv
 const path = require('path');
-require('dotenv').config({ path: path.resolve('.env') });
+require('dotenv').config({
+    path: process.env.NODE_ENV === 'test' ? path.resolve('.env.test') : path.resolve('.env')
+});
 
 
 // Cluster
