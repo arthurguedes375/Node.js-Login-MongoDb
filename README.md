@@ -1,5 +1,16 @@
 # Login System
 
+## Dependencies
+- Mongodb
+- Nodemon
+
+## Getting Started
+- Create `.env` file in project root
+- Set the `.env` with `.env.example` vars
+- Run `yarn ` or `npm install ` in project root
+- Run `yarn dev ` or `npm run dev ` to start a development Server
+
+
 ## Technologies
 - [Node.js](https://nodejs.org/)
 - [Express.js](https://expressjs.com/)
@@ -13,6 +24,6 @@
 - Make a branch with your feature
 - Make a pull request with your branch
 
-#
+---
 
 <p align="center">Made with :heart: by <strong>Arthur Guedes</strong></p>
