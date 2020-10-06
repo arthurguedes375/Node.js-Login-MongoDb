@@ -1,17 +1,17 @@
 # Login System
 
-## Dependencies
+## :book: Dependencies
 - Mongodb
 - Nodemon
 
-## Getting Started
+## :hand: Getting Started
 - Create `.env` file in project root
 - Set the `.env` with `.env.example` vars
 - Run `yarn ` or `npm install ` in project root
 - Run `yarn dev ` or `npm run dev ` to start a development Server
 
 
-## Technologies
+## :rocket: Technologies
 - [Node.js](https://nodejs.org/)
 - [Express.js](https://expressjs.com/)
 - [MongoDB](https://www.mongodb.com/)
